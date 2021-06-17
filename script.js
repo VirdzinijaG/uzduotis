@@ -22,3 +22,22 @@ document.getElementById("patvirtinti").addEventListener("click", function() {
     } )
     
     
+    document.getElementById("skaiciuoti").addEventListener("click", function() {
+        let skaicius = document.getElementById("skaicius").value;
+
+        let suma, vidurkis, sandauga;
+        let a, b, c;
+
+    
+        a = parseInt(skaicius / 100);
+        b = parseInt(skaicius % 100 / 10);
+        c = parseInt(skaicius % 100 % 10);
+
+        suma = a + b + c;
+        vidurkis = (a + b + c) / 3;
+        sandauga = a *b *c;
+
+
+        document.getElementById("rezultatas1").innerHTML = "Suma: " + suma + " vidurkis: " + vidurkis + " sandauga: " + sandauga ;
+
+    } )

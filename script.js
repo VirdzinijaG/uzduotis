@@ -51,7 +51,7 @@ document.getElementById("patvirtinti").addEventListener("click", function() {
 
     let zingsniai = 0;
 
-for (let i=0; i<40; i++) { // pradzioje apibreziamas ciklo kintamasis, dazniausiai nurodomas i ir dazniausiai prasideda nuo 0. i<40 iki kiek turi vykti sitas ciklas. i++ po kiekvieno ciklo ivykdymo i padideja vienetu
+for (let i=0; i<49; i++) { // pradzioje apibreziamas ciklo kintamasis, dazniausiai nurodomas i ir dazniausiai prasideda nuo 0. i<40 iki kiek turi vykti sitas ciklas. i++ po kiekvieno ciklo ivykdymo i padideja vienetu
    
     let divElementas = document.createElement("div") // dokumento sukurtas divas, bet neatvaizduojamas
     divElementas.classList.add("div-dydis"); // prie div elemento klasiu saraso pridek div dydis

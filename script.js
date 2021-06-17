@@ -25,6 +25,12 @@ document.getElementById("patvirtinti").addEventListener("click", function() {
     document.getElementById("skaiciuoti").addEventListener("click", function() {
         let skaicius = document.getElementById("skaicius").value;
 
+        if (skaicius > 999) {
+            alert ("Turi būti triženklis skaičius");
+        } else if (skaicius < 100) {
+            alert ("Turi būti triženklis skaičius");
+        }
+
         let suma, vidurkis, sandauga;
         let a, b, c;
 
